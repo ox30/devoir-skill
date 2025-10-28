@@ -1,3 +1,5 @@
+START TRANSACTION;
+
 -- 0) Élève : réutiliser si déjà présent, sinon créer
 SELECT id_eleve INTO @eleve_id
 FROM eleves
@@ -74,4 +76,5 @@ WHERE NOT EXISTS (
 );
 
 COMMIT;
+
 

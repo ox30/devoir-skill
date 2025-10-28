@@ -58,9 +58,10 @@ Ici j'ai travaillé en deux parties: Partie 1 import avec l'outil MySQL, Partie 
 
 **2) À partir de ce fichier, alimentez les tables de la base de données:**
 
-On procède différemment avec le tableur. On prépare la requête SQL dans le tableur sous forme de formule. Et ensuite on les exécutes dans MySQL. J'ai donc modifier le tableur Data45.xlsx et les deux codes SQL se trouvent dans le fichier import\_csv.sql
+On procède différemment avec le tableur. On prépare la requête SQL dans le tableur sous forme de formule. Et ensuite on les exécutes dans MySQL. J'ai donc modifier le tableur Data45.xlsx et les deux codes SQL se trouvent dans le fichier "import\_csv.sql"
 
 A noter l'utilisation des " autour des texte comprenant des ' dans le texte. Ce qui casse le code SQL.
+
 
 
 

@@ -41,7 +41,7 @@ WHERE @id_formation IS NOT NULL AND @id_matiere IS NOT NULL
     WHERE id_formation=@id_formation AND id_matiere=@id_matiere
   );
 
--- 4) Devoir "Data" n°8 : réutiliser ou créer
+-- 4) Devoir "Data" n°4 créer
 SELECT id_devoir INTO @id_devoir
 FROM devoirs
 WHERE nom_devoir='Data' AND num_devoir=4
@@ -76,5 +76,6 @@ WHERE NOT EXISTS (
 );
 
 COMMIT;
+
 
 
